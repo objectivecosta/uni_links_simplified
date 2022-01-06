@@ -6,7 +6,7 @@ homepage: https://github.com/avioli/uni_links/tree/master/uni_links
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.0
+  plugin_platform_interface: ^2.1.0
 
 
 dev_dependencies:

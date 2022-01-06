@@ -12,7 +12,7 @@ import 'method_channel_uni_links.dart';
 abstract class UniLinksPlatform extends PlatformInterface {
   /// A token used for verification of subclasses to ensure they extend this
   /// class instead of implementing it.
-  static const _token = Object();
+  static final Object _token = Object();
 
   /// Constructs a [UniLinksPlatform].
   UniLinksPlatform() : super(token: _token);
@@ -28,7 +28,7 @@ abstract class UniLinksPlatform extends PlatformInterface {
   /// platform-specific class that extends [UniLinksPlatform] when they register
   /// themselves.
   static set instance(UniLinksPlatform instance) {
-    PlatformInterface.verifyToken(instance, _token);
+    PlatformInterface.verify(instance, _token);
     _instance = instance;
   }
 
