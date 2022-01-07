@@ -1,7 +1,7 @@
 ## [0.6.0] - 2022-01-06
 
 * Updated to depend on plugin_platform_interface 2.1.0.
-* Updated plugin platform interface to use a non`-const` token. This is marked as a breaking change because it can cause an assertion failure if implementations use `extends` rather than `implements`, but hopefully there aren't any of those.
+* Updated plugin platform interface to use a non`-const` token. This is marked as a breaking change because it can cause an assertion failure if implementations use `implements` rather than `extends`, but hopefully there aren't any of those.
 
 ## [0.5.0] - 2020-12-28
 
